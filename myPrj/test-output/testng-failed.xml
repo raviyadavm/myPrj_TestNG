@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="name2" value="Bhargav"/>
+  <parameter name="name1" value="Jatin"/>
+  <test name="Loan EMI Calc1(failed)">
+    <parameter name="name2" value="Bhargav"/>
+    <parameter name="name1" value="Jatin"/>
+    <classes>
+      <class name="myPackage.loanCalc">
+        <methods>
+          <include name="mainclass" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- myPackage.loanCalc -->
+    </classes>
+  </test> <!-- Loan EMI Calc1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

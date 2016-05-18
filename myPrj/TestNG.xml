@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" thread-count="5">	
+ 
+	<test name="Loan EMI Calc1">	
+		<parameter name="name1" value="Jatin" />
+		<parameter name="name2" value="Bhargav" />
+		<classes>
+			<class name="myPackage.loanCalc" />
+		</classes>		
+	</test>
+<!--
+	<test name="Loan EMI Calc2">	
+		<parameter name="name1" value="Ravi" />
+		<parameter name="name2" value="Yadav" />
+		<classes>
+			<class name="myPackage.loanCalc" />
+		</classes>		
+	</test>
+-->		
+</suite>

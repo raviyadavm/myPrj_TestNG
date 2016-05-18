@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="31193" started-at="2016-04-18T15:41:18Z" finished-at="2016-04-18T15:41:49Z">
+    <groups>
+    </groups>
+    <test name="Loan EMI Calc1" duration-ms="31193" started-at="2016-04-18T15:41:18Z" finished-at="2016-04-18T15:41:49Z">
+      <class name="myPackage.loanCalc">
+        <test-method status="PASS" signature="mainclass(java.lang.String, java.lang.String)[pri:0, instance:myPackage.loanCalc@39aeed2f]" name="mainclass" duration-ms="31159" started-at="2016-04-18T10:41:18Z" finished-at="2016-04-18T10:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jatin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainclass -->
+      </class> <!-- myPackage.loanCalc -->
+    </test> <!-- Loan EMI Calc1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
